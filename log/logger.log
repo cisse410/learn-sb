@@ -2279,3 +2279,168 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2024-08-29T17:17:16.396Z  INFO 9592 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8500 (http)
 2024-08-29T17:17:16.542Z  INFO 9592 --- [learn-sb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
 2024-08-29T17:17:16.548Z  INFO 9592 --- [learn-sb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T17:17:16.778Z  INFO 9592 --- [learn-sb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T17:17:16.791Z  INFO 9592 --- [learn-sb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3909 ms
+2024-08-29T17:17:18.363Z  INFO 9592 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T17:17:18.736Z  INFO 9592 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T17:17:18.843Z  INFO 9592 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T17:17:19.722Z  INFO 9592 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T17:17:19.797Z  INFO 9592 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T17:17:20.083Z  INFO 9592 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54567b05
+2024-08-29T17:17:20.087Z  INFO 9592 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T17:17:20.183Z  WARN 9592 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T17:17:21.486Z  INFO 9592 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T17:17:21.547Z  INFO 9592 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T17:17:22.042Z  INFO 9592 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T17:17:23.089Z  WARN 9592 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T17:17:23.131Z  INFO 9592 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T17:17:23.870Z  INFO 9592 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8500 (http) with context path '/'
+2024-08-29T17:17:23.888Z  INFO 9592 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Started LearnSbApplication in 12.51 seconds (process running for 13.65)
+2024-08-29T17:19:17.518Z  INFO 20532 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Starting LearnSbApplication using Java 21.0.1 with PID 20532 (C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb\target\classes started by vPro in C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb)
+2024-08-29T17:19:17.523Z  INFO 20532 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : The following 1 profile is active: "dev"
+2024-08-29T17:19:19.060Z  INFO 20532 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T17:19:19.240Z  INFO 20532 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
+2024-08-29T17:19:20.798Z  INFO 20532 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8500 (http)
+2024-08-29T17:19:20.860Z  INFO 20532 --- [learn-sb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T17:19:20.864Z  INFO 20532 --- [learn-sb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T17:19:20.995Z  INFO 20532 --- [learn-sb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T17:19:20.997Z  INFO 20532 --- [learn-sb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3348 ms
+2024-08-29T17:19:21.374Z  INFO 20532 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T17:19:21.545Z  INFO 20532 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T17:19:21.638Z  INFO 20532 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T17:19:22.283Z  INFO 20532 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T17:19:22.363Z  INFO 20532 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T17:19:22.698Z  INFO 20532 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@464ede1f
+2024-08-29T17:19:22.704Z  INFO 20532 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T17:19:22.828Z  WARN 20532 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T17:19:24.010Z  INFO 20532 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T17:19:24.073Z  INFO 20532 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T17:19:24.903Z  INFO 20532 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T17:19:26.213Z  WARN 20532 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T17:19:26.279Z  INFO 20532 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T17:19:28.268Z  INFO 20532 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8500 (http) with context path '/'
+2024-08-29T17:19:28.311Z  INFO 20532 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Started LearnSbApplication in 11.581 seconds (process running for 12.268)
+2024-08-29T17:41:33.858Z  INFO 20592 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Starting LearnSbApplication using Java 21.0.1 with PID 20592 (C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb\target\classes started by vPro in C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb)
+2024-08-29T17:41:33.867Z  INFO 20592 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : The following 1 profile is active: "dev"
+2024-08-29T17:41:40.459Z  INFO 20592 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T17:41:40.608Z  INFO 20592 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2024-08-29T17:41:43.778Z  INFO 20592 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8500 (http)
+2024-08-29T17:41:43.856Z  INFO 20592 --- [learn-sb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T17:41:43.861Z  INFO 20592 --- [learn-sb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T17:41:44.225Z  INFO 20592 --- [learn-sb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T17:41:44.226Z  INFO 20592 --- [learn-sb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10022 ms
+2024-08-29T17:41:45.869Z  INFO 20592 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T17:41:46.193Z  INFO 20592 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T17:41:46.367Z  INFO 20592 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T17:41:48.534Z  INFO 20592 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T17:41:48.680Z  INFO 20592 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T17:41:49.294Z  INFO 20592 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9f2fe2e
+2024-08-29T17:41:49.302Z  INFO 20592 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T17:41:49.440Z  WARN 20592 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T17:41:50.963Z  INFO 20592 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T17:41:51.072Z  INFO 20592 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T17:41:53.117Z  INFO 20592 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T17:41:57.915Z  WARN 20592 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T17:41:58.139Z  INFO 20592 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T17:42:03.031Z  INFO 20592 --- [learn-sb] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-08-29T17:42:03.859Z  INFO 20592 --- [learn-sb] [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T17:42:03.896Z  INFO 20592 --- [learn-sb] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T17:42:03.901Z  INFO 20592 --- [learn-sb] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-08-29T17:42:03.982Z  INFO 20592 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8500 (http) with context path '/'
+2024-08-29T17:42:04.323Z  INFO 20592 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Started LearnSbApplication in 31.94 seconds (process running for 34.783)
+2024-08-29T20:46:21.465Z  WARN 20592 --- [learn-sb] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h32s427ms677µs400ns).
+2024-08-29T22:28:58.337Z  WARN 20592 --- [learn-sb] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m43s589ms588µs400ns).
+2024-08-29T22:34:31.487Z  INFO 12712 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Starting LearnSbApplication using Java 21.0.1 with PID 12712 (C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb\target\classes started by vPro in C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb)
+2024-08-29T22:34:31.493Z  INFO 12712 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : The following 1 profile is active: "dev"
+2024-08-29T22:34:34.822Z  INFO 12712 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T22:34:34.958Z  INFO 12712 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interface.
+2024-08-29T22:34:37.003Z  INFO 12712 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8500 (http)
+2024-08-29T22:34:37.039Z  INFO 12712 --- [learn-sb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T22:34:37.042Z  INFO 12712 --- [learn-sb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T22:34:37.189Z  INFO 12712 --- [learn-sb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T22:34:37.190Z  INFO 12712 --- [learn-sb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5543 ms
+2024-08-29T22:34:38.678Z  INFO 12712 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T22:34:38.821Z  INFO 12712 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T22:34:38.903Z  INFO 12712 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T22:34:39.876Z  INFO 12712 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T22:34:39.964Z  INFO 12712 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T22:34:40.383Z  INFO 12712 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39342614
+2024-08-29T22:34:40.389Z  INFO 12712 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T22:34:40.585Z  WARN 12712 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T22:34:42.602Z  INFO 12712 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T22:34:42.761Z  INFO 12712 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:34:44.241Z  INFO 12712 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T22:34:46.228Z  WARN 12712 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T22:34:46.415Z  INFO 12712 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T22:34:51.002Z  INFO 12712 --- [learn-sb] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2024-08-29T22:34:53.485Z  INFO 12712 --- [learn-sb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8500 (http) with context path '/'
+2024-08-29T22:34:53.524Z  INFO 12712 --- [learn-sb] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T22:34:53.526Z  INFO 12712 --- [learn-sb] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T22:34:53.531Z  INFO 12712 --- [learn-sb] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-08-29T22:34:53.622Z  INFO 12712 --- [learn-sb] [main] sn.cisse410.LearnSbApplication           : Started LearnSbApplication in 23.001 seconds (process running for 24.374)
+2024-08-29T22:53:58.952Z  INFO 26896 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : Starting LearnSbApplicationTests using Java 21.0.1 with PID 26896 (started by vPro in C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb)
+2024-08-29T22:53:58.956Z  INFO 26896 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : The following 1 profile is active: "dev"
+2024-08-29T22:54:02.041Z  INFO 26896 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T22:54:02.189Z  INFO 26896 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interface.
+2024-08-29T22:54:04.100Z  INFO 26896 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T22:54:04.456Z  INFO 26896 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T22:54:04.618Z  INFO 26896 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T22:54:06.084Z  INFO 26896 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T22:54:06.182Z  INFO 26896 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T22:54:06.598Z  INFO 26896 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70f5f59d
+2024-08-29T22:54:06.601Z  INFO 26896 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T22:54:06.733Z  WARN 26896 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T22:54:08.378Z  INFO 26896 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T22:54:08.469Z  INFO 26896 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:54:09.624Z  INFO 26896 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T22:54:11.479Z  WARN 26896 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T22:54:11.613Z  INFO 26896 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T22:54:14.074Z  INFO 26896 --- [learn-sb] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2024-08-29T22:54:14.399Z  INFO 26896 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : Started LearnSbApplicationTests in 16.3 seconds (process running for 18.719)
+2024-08-29T22:54:16.963Z  INFO 26896 --- [learn-sb] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:54:16.969Z  INFO 26896 --- [learn-sb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T22:54:17.034Z  INFO 26896 --- [learn-sb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T22:55:23.625Z  INFO 13140 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : Starting LearnSbApplicationTests using Java 21.0.1 with PID 13140 (started by vPro in C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb)
+2024-08-29T22:55:23.630Z  INFO 13140 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : The following 1 profile is active: "dev"
+2024-08-29T22:55:27.125Z  INFO 13140 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T22:55:27.318Z  INFO 13140 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.
+2024-08-29T22:55:29.286Z  INFO 13140 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T22:55:29.411Z  INFO 13140 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T22:55:29.471Z  INFO 13140 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T22:55:30.765Z  INFO 13140 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T22:55:30.865Z  INFO 13140 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T22:55:31.211Z  INFO 13140 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70f5f59d
+2024-08-29T22:55:31.215Z  INFO 13140 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T22:55:31.307Z  WARN 13140 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T22:55:32.558Z  INFO 13140 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T22:55:32.636Z  INFO 13140 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:55:33.743Z  INFO 13140 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T22:55:34.956Z  WARN 13140 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T22:55:35.063Z  INFO 13140 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T22:55:37.112Z  INFO 13140 --- [learn-sb] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2024-08-29T22:55:37.370Z  INFO 13140 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : Started LearnSbApplicationTests in 14.672 seconds (process running for 17.551)
+2024-08-29T22:55:39.020Z  INFO 13140 --- [learn-sb] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:55:39.025Z  INFO 13140 --- [learn-sb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T22:55:39.054Z  INFO 13140 --- [learn-sb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T22:56:19.635Z  INFO 3300 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : Starting LearnSbApplicationTests using Java 21.0.1 with PID 3300 (started by vPro in C:\Users\vPro\Desktop\licence3\working\spring-boot\learn-sb)
+2024-08-29T22:56:19.643Z  INFO 3300 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : The following 1 profile is active: "dev"
+2024-08-29T22:56:22.025Z  INFO 3300 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T22:56:22.138Z  INFO 3300 --- [learn-sb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-08-29T22:56:23.473Z  INFO 3300 --- [learn-sb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T22:56:23.594Z  INFO 3300 --- [learn-sb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-29T22:56:23.669Z  INFO 3300 --- [learn-sb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T22:56:24.408Z  INFO 3300 --- [learn-sb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T22:56:24.459Z  INFO 3300 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T22:56:24.846Z  INFO 3300 --- [learn-sb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37caecda
+2024-08-29T22:56:24.850Z  INFO 3300 --- [learn-sb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T22:56:24.983Z  WARN 3300 --- [learn-sb] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-08-29T22:56:26.312Z  INFO 3300 --- [learn-sb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T22:56:26.371Z  INFO 3300 --- [learn-sb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:56:27.157Z  INFO 3300 --- [learn-sb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-29T22:56:28.357Z  WARN 3300 --- [learn-sb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29T22:56:28.430Z  INFO 3300 --- [learn-sb] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-29T22:56:30.160Z  INFO 3300 --- [learn-sb] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2024-08-29T22:56:30.355Z  INFO 3300 --- [learn-sb] [main] s.c.learn_sb.LearnSbApplicationTests     : Started LearnSbApplicationTests in 11.543 seconds (process running for 13.235)
+2024-08-29T22:56:31.942Z  INFO 3300 --- [learn-sb] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T22:56:31.954Z  INFO 3300 --- [learn-sb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T22:56:31.988Z  INFO 3300 --- [learn-sb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
